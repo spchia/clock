@@ -7,7 +7,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 })
 export class ThemeManagerComponent implements OnInit, AfterViewInit{
   themeFolder:string = './assets'
-  themeStyleSheetDefault:string = "/theme-light.css";
+  themeStyleSheetDefault:string = "theme-light.css";
 
   themeStyleSheet:any
   themeStyleSheetSelected:string = this.themeStyleSheetDefault;
@@ -34,5 +34,13 @@ export class ThemeManagerComponent implements OnInit, AfterViewInit{
   toggleThemeSelector(): void {
     this.isThemeSelectorClose = !this.isThemeSelectorClose;
     this.labelBtnThemeSelectorToggle = this.isThemeSelectorClose?"Open":"Close";
+  }
+
+  isNotThemeLight(): boolean {
+    return (this.themeStyleSheetSelected!=="theme-light.css");
+  }
+
+  isNotThemeDark(): boolean {
+    return (this.themeStyleSheetSelected!=="theme-dark.css");
   }
 }

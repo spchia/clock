@@ -2,10 +2,21 @@
     <div class="container-theme-toggle">
         <button class="btn-action-toggle" (click)="toggleThemeSelector()">{{labelBtnThemeSelectorToggle}}</button>
     </div>
-    <div class="container-theme-selector" [ngClass]="{'close':isThemeSelectorClose}">
+    <div class="container-theme-selector theme" [ngClass]="{'close':isThemeSelectorClose}">
+        <div>
+            <h3 class="title theme">Choose a theme:</h3>
+        </div>
         <div class="theme-selector">
-            <button class="btn btn-theme" [ngClass]="{'active':themeStyleSheetSelected==='theme-light.css'}" (click)="setTheme('theme-light.css')">Light</button>
-            <button class="btn btn-theme" [ngClass]="{'active':themeStyleSheetSelected==='theme-dark.css'}" (click)="setTheme('theme-dark.css')">Dark</button>
+            <div>
+                <button class="btn btn-theme light" 
+                    (click)="setTheme('theme-light.css')">Light</button>
+                <span class="badge-selected" [ngClass]="{'not':isNotThemeLight()}" >Selected</span>
+            </div>
+            <div>
+                <button class="btn btn-theme dark"  
+                    (click)="setTheme('theme-dark.css')">Dark</button>
+                <span class="badge-selected" [ngClass]="{'not':isNotThemeDark()}">Selected</span>
+            </div>
         </div>
     </div>
 </div>

@@ -15,5 +15,46 @@ body {
 }
 
 .todayDate.text {
-    color: #DDD
+    color: #DDD;
+}
+
+.container-theme-selector.theme{
+    border-top: 2px solid #555;
+    background-color: #333;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container-theme-selector .title.theme{
+    color: #DDD;
+}
+
+.container-theme .container-theme-toggle .btn-action-toggle {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #DDD;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #333;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 0.8rem;
+    border-radius: .25rem;
+    border-top: 2px solid #555;
+    border-left: 2px solid #555;
+    border-right: 2px solid #555;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 5rem;
+}
+
+.container-theme .container-theme-toggle .btn-action-toggle:hover {
+    color:#6c94cf;
+    background-color: #222;
 }
