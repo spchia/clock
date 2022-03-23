@@ -1,0 +1,231 @@
+<div class="digitalClock">
+    <div class="box-lcd">
+      <div #hourFirstDigit class="box-lcd-char">
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[0], 'inactive': !clock.lcdDigit1[0]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[1], 'inactive': !clock.lcdDigit1[1]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[2], 'inactive': !clock.lcdDigit1[2]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[3], 'inactive': !clock.lcdDigit1[3]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[4], 'inactive': !clock.lcdDigit1[4]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[5], 'inactive': !clock.lcdDigit1[5]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[6], 'inactive': !clock.lcdDigit1[6]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[7], 'inactive': !clock.lcdDigit1[7]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[8], 'inactive': !clock.lcdDigit1[8]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[9], 'inactive': !clock.lcdDigit1[9]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[10], 'inactive': !clock.lcdDigit1[10]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[11], 'inactive': !clock.lcdDigit1[11]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[12], 'inactive': !clock.lcdDigit1[12]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[13], 'inactive': !clock.lcdDigit1[13]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[14], 'inactive': !clock.lcdDigit1[14]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[15], 'inactive': !clock.lcdDigit1[15]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[16], 'inactive': !clock.lcdDigit1[16]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[17], 'inactive': !clock.lcdDigit1[17]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[18], 'inactive': !clock.lcdDigit1[18]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[19], 'inactive': !clock.lcdDigit1[19]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[20], 'inactive': !clock.lcdDigit1[20]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[21], 'inactive': !clock.lcdDigit1[21]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[22], 'inactive': !clock.lcdDigit1[22]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[23], 'inactive': !clock.lcdDigit1[23]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[24], 'inactive': !clock.lcdDigit1[24]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[25], 'inactive': !clock.lcdDigit1[25]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[26], 'inactive': !clock.lcdDigit1[26]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[27], 'inactive': !clock.lcdDigit1[27]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[28], 'inactive': !clock.lcdDigit1[28]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[29], 'inactive': !clock.lcdDigit1[29]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[30], 'inactive': !clock.lcdDigit1[30]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[31], 'inactive': !clock.lcdDigit1[31]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[32], 'inactive': !clock.lcdDigit1[32]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[33], 'inactive': !clock.lcdDigit1[33]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit1[34], 'inactive': !clock.lcdDigit1[34]}"></div>
+        </div>
+      </div>
+  
+      <div class="box-lcd-spacer"></div>
+  
+      <div class="box-lcd-char">
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[0], 'inactive': !clock.lcdDigit2[0]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[1], 'inactive': !clock.lcdDigit2[1]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[2], 'inactive': !clock.lcdDigit2[2]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[3], 'inactive': !clock.lcdDigit2[3]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[4], 'inactive': !clock.lcdDigit2[4]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[5], 'inactive': !clock.lcdDigit2[5]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[6], 'inactive': !clock.lcdDigit2[6]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[7], 'inactive': !clock.lcdDigit2[7]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[8], 'inactive': !clock.lcdDigit2[8]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[9], 'inactive': !clock.lcdDigit2[9]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[10], 'inactive': !clock.lcdDigit2[10]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[11], 'inactive': !clock.lcdDigit2[11]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[12], 'inactive': !clock.lcdDigit2[12]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[13], 'inactive': !clock.lcdDigit2[13]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[14], 'inactive': !clock.lcdDigit2[14]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[15], 'inactive': !clock.lcdDigit2[15]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[16], 'inactive': !clock.lcdDigit2[16]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[17], 'inactive': !clock.lcdDigit2[17]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[18], 'inactive': !clock.lcdDigit2[18]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[19], 'inactive': !clock.lcdDigit2[19]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[20], 'inactive': !clock.lcdDigit2[20]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[21], 'inactive': !clock.lcdDigit2[21]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[22], 'inactive': !clock.lcdDigit2[22]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[23], 'inactive': !clock.lcdDigit2[23]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[24], 'inactive': !clock.lcdDigit2[24]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[25], 'inactive': !clock.lcdDigit2[25]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[26], 'inactive': !clock.lcdDigit2[26]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[27], 'inactive': !clock.lcdDigit2[27]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[28], 'inactive': !clock.lcdDigit2[28]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[29], 'inactive': !clock.lcdDigit2[29]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[30], 'inactive': !clock.lcdDigit2[30]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[31], 'inactive': !clock.lcdDigit2[31]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[32], 'inactive': !clock.lcdDigit2[32]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[33], 'inactive': !clock.lcdDigit2[33]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit2[34], 'inactive': !clock.lcdDigit2[34]}"></div>
+        </div>
+      </div>
+  
+      <div class="box-lcd-spacer"></div>
+  
+      <div class="box-lcd-char">
+        <div class="box-lcd-char-dot"></div>
+        <div class="box-lcd-char-dot active"></div>
+        <div class="box-lcd-char-dot"></div>
+        <div class="box-lcd-char-dot active"></div>
+        <div class="box-lcd-char-dot"></div>
+      </div>
+  
+      <div class="box-lcd-spacer"></div>
+  
+      <div class="box-lcd-char">
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[0], 'inactive': !clock.lcdDigit3[0]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[1], 'inactive': !clock.lcdDigit3[1]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[2], 'inactive': !clock.lcdDigit3[2]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[3], 'inactive': !clock.lcdDigit3[3]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[4], 'inactive': !clock.lcdDigit3[4]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[5], 'inactive': !clock.lcdDigit3[5]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[6], 'inactive': !clock.lcdDigit3[6]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[7], 'inactive': !clock.lcdDigit3[7]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[8], 'inactive': !clock.lcdDigit3[8]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[9], 'inactive': !clock.lcdDigit3[9]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[10], 'inactive': !clock.lcdDigit3[10]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[11], 'inactive': !clock.lcdDigit3[11]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[12], 'inactive': !clock.lcdDigit3[12]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[13], 'inactive': !clock.lcdDigit3[13]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[14], 'inactive': !clock.lcdDigit3[14]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[15], 'inactive': !clock.lcdDigit3[15]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[16], 'inactive': !clock.lcdDigit3[16]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[17], 'inactive': !clock.lcdDigit3[17]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[18], 'inactive': !clock.lcdDigit3[18]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[19], 'inactive': !clock.lcdDigit3[19]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[20], 'inactive': !clock.lcdDigit3[20]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[21], 'inactive': !clock.lcdDigit3[21]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[22], 'inactive': !clock.lcdDigit3[22]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[23], 'inactive': !clock.lcdDigit3[23]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[24], 'inactive': !clock.lcdDigit3[24]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[25], 'inactive': !clock.lcdDigit3[25]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[26], 'inactive': !clock.lcdDigit3[26]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[27], 'inactive': !clock.lcdDigit3[27]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[28], 'inactive': !clock.lcdDigit3[28]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[29], 'inactive': !clock.lcdDigit3[29]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[30], 'inactive': !clock.lcdDigit3[30]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[31], 'inactive': !clock.lcdDigit3[31]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[32], 'inactive': !clock.lcdDigit3[32]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[33], 'inactive': !clock.lcdDigit3[33]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit3[34], 'inactive': !clock.lcdDigit3[34]}"></div>
+        </div>
+      </div>
+  
+      <div class="box-lcd-spacer"></div>
+  
+      <div class="box-lcd-char">
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[0], 'inactive': !clock.lcdDigit4[0]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[1], 'inactive': !clock.lcdDigit4[1]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[2], 'inactive': !clock.lcdDigit4[2]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[3], 'inactive': !clock.lcdDigit4[3]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[4], 'inactive': !clock.lcdDigit4[4]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[5], 'inactive': !clock.lcdDigit4[5]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[6], 'inactive': !clock.lcdDigit4[6]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[7], 'inactive': !clock.lcdDigit4[7]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[8], 'inactive': !clock.lcdDigit4[8]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[9], 'inactive': !clock.lcdDigit4[9]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[10], 'inactive': !clock.lcdDigit4[10]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[11], 'inactive': !clock.lcdDigit4[11]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[12], 'inactive': !clock.lcdDigit4[12]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[13], 'inactive': !clock.lcdDigit4[13]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[14], 'inactive': !clock.lcdDigit4[14]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[15], 'inactive': !clock.lcdDigit4[15]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[16], 'inactive': !clock.lcdDigit4[16]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[17], 'inactive': !clock.lcdDigit4[17]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[18], 'inactive': !clock.lcdDigit4[18]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[19], 'inactive': !clock.lcdDigit4[19]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[20], 'inactive': !clock.lcdDigit4[20]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[21], 'inactive': !clock.lcdDigit4[21]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[22], 'inactive': !clock.lcdDigit4[22]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[23], 'inactive': !clock.lcdDigit4[23]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[24], 'inactive': !clock.lcdDigit4[24]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[25], 'inactive': !clock.lcdDigit4[25]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[26], 'inactive': !clock.lcdDigit4[26]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[27], 'inactive': !clock.lcdDigit4[27]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[28], 'inactive': !clock.lcdDigit4[28]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[29], 'inactive': !clock.lcdDigit4[29]}"></div>
+        </div>
+        <div class="box-lcd-char-row">
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[30], 'inactive': !clock.lcdDigit4[30]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[31], 'inactive': !clock.lcdDigit4[31]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[32], 'inactive': !clock.lcdDigit4[32]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[33], 'inactive': !clock.lcdDigit4[33]}"></div>
+          <div class="box-lcd-char-dot" [ngClass]="{'active': clock.lcdDigit4[34], 'inactive': !clock.lcdDigit4[34]}"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dayOfWeek text">{{clock.dayOfWeek}}</div>
+  <div class="todayDate text">{{clock.todayDate}}</div>
+ 
+  

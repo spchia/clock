@@ -1,0 +1,19 @@
+body {
+    background-color: #333;
+}
+
+.box-lcd-char-dot.active {
+    background-color:#DDD;
+}
+
+.box-lcd-char-dot.inactive {
+    background-color:transparent;
+}
+
+.dayOfWeek.text {
+    color: #DDD;
+}
+
+.todayDate.text {
+    color: #DDD
+}

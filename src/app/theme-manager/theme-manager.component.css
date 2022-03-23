@@ -1,0 +1,106 @@
+.container-theme{
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:100%;
+}
+
+.container-theme .container-theme-toggle{
+    position: relative;
+    top:0.3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    background-color: transparent;
+    padding-right: 1rem;
+    z-index: 100;
+}
+
+.container-theme .container-theme-toggle .btn-action-toggle {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #FEFEFE;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 0.8rem;
+    border-radius: .25rem;
+    border-top: 2px solid #F0F0F0;
+    border-left: 2px solid #F0F0F0;
+    border-right: 2px solid #F0F0F0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 5rem;
+}
+
+.container-theme .container-theme-toggle .btn-action-toggle:hover {
+    color:#0b5ed7;
+    background-color: #F0F0F0;
+}
+
+.container-theme .theme-selector{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    column-gap: 1rem;
+    padding: 2.5rem 3rem;
+    border-top: 2px solid #F0F0F0;
+    background-color: #FEFEFE;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 10;
+    max-height: 10rem;
+}
+
+.container-theme-selector{
+    max-height: 10rem;
+    transition: max-height 1s ease-out;
+}
+
+.container-theme-selector.close{
+    max-height:0;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #FEFEFE;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn.btn-theme {
+    border:#CCC solid 1px;
+    width:5em;
+    height:5em;
+}
+
+.btn.btn-theme:hover {
+    background-color: #F0F0F0;
+}
+
+.btn.btn-theme.active {
+    outline: 2px solid #CCC;
+}

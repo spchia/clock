@@ -1,0 +1,47 @@
+.digitalClock {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.box-lcd {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.box-lcd-char {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-lcd-char-row {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.box-lcd-char-dot {
+    height:2rem;
+    width:2rem;
+    margin:0.1rem;
+}
+
+.box-lcd-spacer {
+    width:3rem;
+}
+
+.dayOfWeek {
+    font-size: 120px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.todayDate {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 1rem;
+}
