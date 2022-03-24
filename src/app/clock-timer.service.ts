@@ -10,7 +10,6 @@ import { ClockDateTime } from './ClockDateTime';
 export class ClockTimerService {
   clock:ClockDateTime = new ClockDateTime();
   
-
   constructor() { }
 
   start(): void{

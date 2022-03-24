@@ -22,4 +22,8 @@ describe('ClockDigitalComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('clock should be initialize', () => {
+    expect(component.clock).toBeTruthy();
+  })
 });
